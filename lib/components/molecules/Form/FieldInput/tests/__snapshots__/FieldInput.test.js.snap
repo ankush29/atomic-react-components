@@ -8,10 +8,11 @@ exports[`FieldInput Component should render correctly 1`] = `
     className=""
     elementLocator=""
   />
-  <FormikConnect(FieldInner)
-    render={[Function]}
+  <Field
     type="text"
-  />
+  >
+    <Component />
+  </Field>
   <FormikConnect(ErrorMessageImpl)
     component={
       Object {
@@ -21,11 +22,10 @@ exports[`FieldInput Component should render correctly 1`] = `
           "componentId": "FieldError-sc-1b3h259-0",
           "isStatic": false,
           "rules": Array [
-            "font-family:",
             [Function],
-            ";font-size:12px;text-align:left;color:",
+            ";",
             [Function],
-            ";margin:0;",
+            ";text-align:left;margin:0;",
             [Function],
             ";",
             ";",
@@ -37,7 +37,6 @@ exports[`FieldInput Component should render correctly 1`] = `
         "styledComponentId": "FieldError-sc-1b3h259-0",
         "target": [Function],
         "toString": [Function],
-        "usesTheme": true,
         "warnTooManyClasses": [Function],
         "withComponent": [Function],
       }

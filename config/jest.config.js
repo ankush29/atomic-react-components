@@ -4,7 +4,7 @@ module.exports = {
   moduleDirectories: ['node_modules'],
   testPathIgnorePatterns: ['<rootDir>/dist/', '<rootDir>/out/'],
   testResultsProcessor: 'jest-sonar-reporter',
-  collectCoverage: true,
+  // collectCoverage: true,
   coverageDirectory: '<rootDir>/reports/coverage',
   collectCoverageFrom: [
     '**lib/components/**/*.js',
@@ -22,13 +22,16 @@ module.exports = {
   coverageReporters: ['lcov', 'json', 'text-summary'],
   coverageThreshold: {
     global: {
-      branches: 40,
-      functions: 40,
-      lines: 60,
+      branches: 45,
+      functions: 45,
+      lines: 65,
       statements: 60,
     },
   },
   snapshotSerializers: ['enzyme-to-json/serializer'],
   verbose: true,
   testMatch: ['<rootDir>/lib/**/*.test.js'],
+  moduleNameMapper: {
+    '\\.(css)$': 'identity-obj-proxy',
+  },
 };
