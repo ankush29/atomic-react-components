@@ -1,0 +1,53 @@
+.RSPBprogressBar {
+  height: 10px;
+  line-height: 1;
+  border-radius: 10px;
+  position: relative;
+  background-color: lightgrey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 0;
+  top: 20px;
+  left: 20px;
+  width: 80%;
+}
+
+.RSPBstep {
+  display: inline-flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+  transform: translateX(-50%);
+  transition-property: all;
+  transition-timing-function: ease;
+  line-height: 30px;
+  text-align: center;
+}
+
+.RSPBstep > div {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+.RSPBprogression {
+  position: absolute;
+  transition: width 0.3s ease;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 10px;
+  background: blue;
+  z-index: -1;
+}
+
+.RSPBprogressBarText {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

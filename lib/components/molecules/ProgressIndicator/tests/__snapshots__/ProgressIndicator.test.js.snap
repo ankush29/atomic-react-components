@@ -1,7 +1,30 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<ProgressIndicator /> should render correctly 1`] = `
-<div>
-  Test
+<div
+  className="RSPBprogressBar"
+  style={
+    Object {
+      "background": null,
+      "height": null,
+      "width": null,
+    }
+  }
+>
+  <Component
+    accomplished={false}
+    index={0}
+    key=".0"
+    position={NaN}
+  />
+  <div
+    className="RSPBprogression"
+    style={
+      Object {
+        "background": null,
+        "width": "NaN%",
+      }
+    }
+  />
 </div>
 `;
