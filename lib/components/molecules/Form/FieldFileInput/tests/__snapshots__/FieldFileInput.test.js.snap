@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FieldInput Component should render correctly 1`] = `
+<div
+  className="fieldFileInput"
+>
+  <Label
+    className=""
+    elementLocator=""
+  />
+  <Input__StyledInput
+    name="fileupload"
+    onChange={[Function]}
+    type="file"
+  />
+  <Button__StyledButton
+    onClick={[Function]}
+    tertiary={true}
+    type="button"
+  >
+    Choose File(s)
+  </Button__StyledButton>
+  <Button__StyledButton
+    primary={true}
+    type="button"
+  >
+    Upload...
+  </Button__StyledButton>
+</div>
+`;

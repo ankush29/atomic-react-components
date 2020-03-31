@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputChoiceVanilla Component should render Radio button correctly 1`] = `
+<Label
+  className=""
+  elementLocator=""
+  htmlFor="test_1"
+  showlabelbeforeinput="false"
+>
+  <ForwardRef
+    ariaLabel=""
+    className=""
+    disabled={false}
+    elementLocator=""
+    id="test_1"
+    name="test_1"
+    placeholder=""
+    ref={null}
+    type="radio"
+    value=""
+  />
+  <span
+    type="radio"
+  />
+  <div />
+</Label>
+`;
+
+exports[`InputChoiceVanilla Component should render checkbox correctly 1`] = `
+<Label
+  className=""
+  elementLocator=""
+  htmlFor="test_2"
+  showlabelbeforeinput="false"
+>
+  <ForwardRef
+    ariaLabel=""
+    className=""
+    disabled={false}
+    elementLocator=""
+    id="test_2"
+    name="test_2"
+    placeholder=""
+    ref={null}
+    type="checkbox"
+    value=""
+  />
+  <span
+    type="checkbox"
+  />
+  <div />
+</Label>
+`;

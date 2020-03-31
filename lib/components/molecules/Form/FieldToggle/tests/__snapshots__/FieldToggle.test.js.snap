@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FieldToggle /> should render correctly 1`] = `
+<div
+  className="toggle-container"
+>
+  <Label
+    className="label-name"
+    elementLocator=""
+    htmlFor="checkbox_test_1"
+  >
+    Toggle
+  </Label>
+  <div>
+    <Label
+      className=""
+      elementLocator=""
+      htmlFor="checkbox_test_1"
+    >
+      <Input__StyledInput
+        className="toggle-input"
+        disabled={false}
+        id="checkbox_test_1"
+        name="test_1"
+        onClick={[Function]}
+        type="checkbox"
+        value="off"
+      />
+      <span
+        className="slider"
+      />
+    </Label>
+    <span
+      className="toggle-label"
+    >
+      Off
+    </span>
+  </div>
+</div>
+`;

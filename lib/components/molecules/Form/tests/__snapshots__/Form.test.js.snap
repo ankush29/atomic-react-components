@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form Component should render form correctly 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <FieldSelect__StyledFieldSelect
+    errors={Object {}}
+    label="Type of user"
+    name="typeOfUser"
+    options={
+      Array [
+        "Admin",
+        "Read Only",
+      ]
+    }
+    register={[Function]}
+    setValue={[Function]}
+    validateOnBlur={true}
+  />
+  <FieldInput__StyledFieldInput
+    errors={Object {}}
+    label="User Name"
+    name="username"
+    register={[Function]}
+    setValue={[Function]}
+    type="text"
+  />
+  <Button
+    ariaLabel=""
+    className=""
+    disabled={false}
+    elementLocator=""
+    inheritedStyles=""
+    primary={true}
+    secondary={false}
+    tertiary={false}
+    transparent={false}
+    type="submit"
+    variation=""
+  >
+    Submit
+  </Button>
+</form>
+`;
+
+exports[`Form Component should render form field with no validation 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <FieldInput__StyledFieldInput
+    errors={Object {}}
+    label="User Name"
+    name="username"
+    register={[Function]}
+    setValue={[Function]}
+    type="text"
+  />
+  <FieldSelect__StyledFieldSelect
+    errors={Object {}}
+    label="Type of user"
+    name="typeOfUser"
+    options={
+      Array [
+        "Admin",
+        "Read Only",
+      ]
+    }
+    register={[Function]}
+    setValue={[Function]}
+    validateOnBlur={true}
+  />
+  <Button
+    ariaLabel=""
+    className=""
+    disabled={false}
+    elementLocator=""
+    inheritedStyles=""
+    primary={true}
+    secondary={false}
+    tertiary={false}
+    transparent={false}
+    type="submit"
+    variation=""
+  >
+    Submit
+  </Button>
+</form>
+`;
+
+exports[`Form Component should render form field with yupValidationSchema 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <FieldInput__StyledFieldInput
+    errors={Object {}}
+    label="User Name"
+    name="username"
+    register={[Function]}
+    setValue={[Function]}
+    type="text"
+  />
+  <FieldSelect__StyledFieldSelect
+    errors={Object {}}
+    label="Type of user"
+    name="typeOfUser"
+    options={
+      Array [
+        "Admin",
+        "Read Only",
+      ]
+    }
+    register={[Function]}
+    setValue={[Function]}
+    validateOnBlur={true}
+  />
+  <Button
+    ariaLabel=""
+    className=""
+    disabled={false}
+    elementLocator=""
+    inheritedStyles=""
+    primary={true}
+    secondary={false}
+    tertiary={false}
+    transparent={false}
+    type="submit"
+    variation=""
+  >
+    Submit
+  </Button>
+</form>
+`;

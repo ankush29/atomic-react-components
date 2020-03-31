@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TabPanel /> should render correctly 1`] = `
+<div
+  aria-hidden={true}
+  aria-labelledby="tab_undefined"
+  className=""
+  hidden={true}
+  inheritedStyles=""
+  role="tabpanel"
+>
+  Test
+</div>
+`;

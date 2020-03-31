@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tabs /> should render correctly 1`] = `
+<div
+  className="example"
+  id="default-tab"
+>
+  <div
+    className="tabs-wrap"
+  >
+    <List__StyledList
+      inline={true}
+      noDefaultView={true}
+      noMargin={true}
+      role="tablist"
+    >
+      <Tab__StyledTab
+        className=""
+        index={0}
+        isSelected={true}
+        key="tab-0"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        tabId="tab-list-item-0"
+      >
+        First tab
+      </Tab__StyledTab>
+      <Tab__StyledTab
+        className=""
+        index={1}
+        isSelected={false}
+        key="tab-1"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        tabId="tab-list-item-1"
+      >
+        Second tab
+      </Tab__StyledTab>
+    </List__StyledList>
+  </div>
+  <div
+    className="panels-wrap"
+  >
+    <TabPanel__StyledTabPanel
+      className=""
+      index={0}
+      isSelected={true}
+      key="tab-panel-0"
+      tabId="tab-list-item-0"
+    >
+      <List__StyledList
+        ListType="ol"
+      >
+        <li>
+          This is ordered list item, content of tab 1.
+        </li>
+        <li>
+          This is ordered list item, content of tab 1.
+        </li>
+      </List__StyledList>
+    </TabPanel__StyledTabPanel>
+    <TabPanel__StyledTabPanel
+      className=""
+      index={1}
+      isSelected={false}
+      key="tab-panel-1"
+      tabId="tab-list-item-1"
+    >
+      <List__StyledList
+        ListType="ul"
+      >
+        <li>
+          This is unordered list item, content of tab 2.
+        </li>
+        <li>
+          This is unordered list item, content of tab 2.
+        </li>
+      </List__StyledList>
+    </TabPanel__StyledTabPanel>
+  </div>
+</div>
+`;

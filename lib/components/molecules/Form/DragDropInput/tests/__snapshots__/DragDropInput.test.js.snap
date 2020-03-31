@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DDFieldInput Component should render correctly 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <DDFieldInput
+    className="dragAndDrop"
+    errors={Object {}}
+    fieldProps={Object {}}
+    labelProps={Object {}}
+    localeText={
+      Object {
+        "btnTextPrimary": "Choose File(s)",
+        "btnTextSecondary": "Upload...",
+        "dragHelperText": "Drop Files Here...",
+      }
+    }
+    name="fileupload"
+    onBlur={null}
+    onChange={null}
+    register={[Function]}
+    setValue={[Function]}
+  />
+  <DDFieldInput
+    className="dragAndDrop"
+    errors={Object {}}
+    fieldProps={Object {}}
+    labelProps={Object {}}
+    localeText={
+      Object {
+        "btnTextPrimary": "Choose File(s)",
+        "btnTextSecondary": "Upload...",
+        "dragHelperText": "Drop Files Here...",
+      }
+    }
+    name="fileuploadTwo"
+    onBlur={null}
+    onChange={null}
+    register={[Function]}
+    setValue={[Function]}
+  />
+  <Button
+    ariaLabel=""
+    className=""
+    disabled={false}
+    elementLocator=""
+    inheritedStyles=""
+    primary={true}
+    secondary={false}
+    tertiary={false}
+    transparent={false}
+    type="submit"
+    variation=""
+  >
+    Submit
+  </Button>
+</form>
+`;

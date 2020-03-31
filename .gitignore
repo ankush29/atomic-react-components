@@ -1,0 +1,20 @@
+.DS_Store
+dist
+node_modules
+*.log
+reports
+out
+.history
+.jest-test-results.json
+
+# Reports
+reports
+
+# Flow
+flow-typed
+
+# ES Docs
+docs
+
+.cache
+.jest-test-results.json

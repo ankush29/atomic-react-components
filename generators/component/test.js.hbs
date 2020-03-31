@@ -1,0 +1,15 @@
+import React from 'react';
+import { shallow, render } from 'enzyme';
+
+import { {{ properCase name }}Vanilla } from '../index';
+
+describe('<{{ properCase name }} />', () => {
+  let {{ properCase name }}Component = '';
+  beforeEach(() => {
+    {{ properCase name }}Component = shallow(<{{ properCase name }}Vanilla>Test</{{ properCase name }}Vanilla>);
+  });
+
+  test('should render correctly', () => {
+    expect({{ properCase name }}Component).toMatchSnapshot();
+  });
+});
